@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+h1 {
+    color: rgb(2, 139, 139);
+    font-size: 5rem;
+  }
+  h2 {
+    color: rgba(65, 37, 0.3);
+    font-size: 2rem;
+    font-weight:normal
+  }
+  h3 {
+    color: rgba(65, 37, 0.5);
+    font-size: 1.5rem;
+    font-weight:normal
+  }
+
+  .item {
+    border: 1px solid #aaa;
+    padding: 1rem;
+  }
+  
+  .selected {
+    background-color: #aaa;
+  }
+  
+/* .main-menu div:hover{
+  color: chartreuse;
+  cursor: pointer;
+} */
+
+.container{
+  width: 1900px;
+  height: 200px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(41, 104, 90);
+  border: solid rgb(121, 67, 16);
+}
+.container button:hover{
+  color: chocolate;
+  cursor: pointer;
+}
+
+.container button{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+} 
